@@ -17,3 +17,59 @@ alias vr="vagrant reload"
 alias vh="vagrant halt"
 alias vd="vagrant destroy"
 alias vs="vagrant ssh"
+
+# Node
+alias wpd="webpack-dev-server --progress --colors --watch --hot --inline"
+
+# TMUX
+alias tr="tmux source-file ~/.tmux.conf"
+alias tls="tmux list"
+
+# MISC
+function mfpSSH() {
+  # $1 is the environment variable
+
+  if [ -z $1 ]
+  then
+    echo '\e[91merror: env parameter required!'
+  fi
+
+  ssh wwung@web-1-main-app-$1.mfpaws.com
+}
+
+function newTMUXSession() {
+  echo "hello"
+  tmux new-session -d "vim"
+  tmux split-window -h
+  tmux split-window -h
+
+}
+
+function unobfuscateID() {
+  # $1 is the id
+
+  if [ -z $1 ]
+  then
+    echo '\e[91merror: missing id'
+  fi
+
+  ClientAPI::Encryption.unobfuscate_id($1)
+}
+
+function obfuscateID() {
+  # $1 is the id
+
+  if [ -z $1 ]
+  then
+    echo '\e[91merror: missing id'
+  fi
+
+  ClientAPI::Encryption.obfuscate_id($1)
+}
+
+alias tdev=newTMUXSession
+alias mfp-ssh=mfpSSH
+
+# Unobfuscation/obfuscation of IDs must be run in rails console
+alias unob=unobfuscateID
+alias ob=obfuscateID

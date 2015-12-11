@@ -4,7 +4,7 @@ export ZSH=$HOME/.oh-my-zsh
 
 # Set to the name theme to load.
 # Look in ~/.oh-my-zsh/themes/
-export ZSH_THEME="blinks"
+export ZSH_THEME="gohan"
 
 # Set to this to use case-sensitive completion
 # export CASE_SENSITIVE="true"
@@ -23,9 +23,9 @@ export DISABLE_AUTO_TITLE="true"
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(autojump)
+plugins=(autojump nvm webpack-dev-server)
 
-# Load OH MY ZSHELL!
+# load OH MY ZSHELL!
 source $ZSH/oh-my-zsh.sh
 
 # Disable the annoying autocorrect feature
@@ -34,3 +34,8 @@ unsetopt correct_all
 
 # Custom PATH
 export PATH=/usr/local/bin:/usr/local/sbin:/usr/local/racket/bin:$PATH
+
+export NVM_DIR="/Users/Longclaw/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm"
+
+export TERM=xterm-256color
