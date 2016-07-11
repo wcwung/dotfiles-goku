@@ -1,0 +1,49 @@
+"*":
+  "atom-beautify":
+    _analyticsUserId: "808a0b71-cdbf-498f-a023-e4a653139080"
+    general:
+      _analyticsUserId: "c4693e7e-172c-4fc5-88ba-efd3d7b0d92d"
+  "atom-spotify2":
+    showEqualizer: true
+    showPlayIconAsText: true
+  core:
+    disabledPackages: [
+      "welcome"
+    ]
+    themes: [
+      "one-dark-ui"
+      "atom-material-syntax"
+    ]
+  editor:
+    confirmCheckoutHeadRevision: false
+    fontFamily: "Menlo"
+    invisibles: {}
+    lineHeight: 1.8
+    showIndentGuide: true
+    softWrap: true
+    tabType: "soft"
+  emmet: {}
+  "exception-reporting":
+    userId: "89be580b-fc9f-1e8a-20cc-e80fd9773af9"
+  "file-watcher":
+    promptWhenFileHasChangedOnDisk: false
+  "git-blame": {}
+  "language-babel": {}
+  linter:
+    showErrorPanel: false
+  "linter-eslint": {}
+  "merge-conflicts": {}
+  nuclide:
+    remoteProjectsConfig: []
+  pigments: {}
+  react:
+    enabledForAllJavascriptFiles: true
+  "status-bar": {}
+  tabs:
+    alwaysShowTabBar: false
+    usePreviewTabs: true
+  "tabs-to-spaces":
+    onSave: "untabify"
+  "tree-view": {}
+  welcome:
+    showOnStartup: false

@@ -1,0 +1,34 @@
+{
+  "name": "base16-eighties-one-dark",
+  "theme": "syntax",
+  "version": "0.2.2",
+  "description": "A base16 eighies dark syntax theme for the one dark UI theme.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/robneu/base16-eighties-one-dark"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  },
+  "readme": "# Base16 Eighties One Dark Theme\n\nA modern base16 eighties Atom theme designed to be used with the one dark UI theme. Perfect for doing code reviews and [WordPress Support](http://www.wpsitecare.com) for WP Site Care customers!\n\n![Theme Screenshot](https://cloud.githubusercontent.com/assets/2184093/6521372/aa21e1e8-c39c-11e4-9d56-be737ac7213b.png)\n",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/robneu/base16-eighties-one-dark/issues"
+  },
+  "homepage": "https://github.com/robneu/base16-eighties-one-dark",
+  "_id": "base16-eighties-one-dark@0.2.2",
+  "_shasum": "098e4ec73a165a9077c0bd9fbea760bdd30ab76e",
+  "_resolved": "file:../d-11579-29312-1h2029x/package.tgz",
+  "_from": "../d-11579-29312-1h2029x/package.tgz",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
+}
